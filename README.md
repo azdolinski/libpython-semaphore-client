@@ -49,7 +49,7 @@ Please follow the [installation procedure](#installation--usage) and then run th
 import time
 import semaphore_client
 from pprint import pprint
-from semaphore import authentication_api
+from semaphore_client.semaphore import authentication_api
 from semaphore_client.model.api_token import APIToken
 from semaphore_client.model.login import Login
 # Defining the host is optional and defaults to https://demo.ansible-semaphore.com/api
